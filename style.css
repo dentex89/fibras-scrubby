@@ -4,7 +4,8 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  color: #222;
+  color: #241000;
+  line-height: 1.5;
 }
 
 .navbar {
@@ -63,6 +64,7 @@ html, body {
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
+  background-color: #ff9000;
 }
 
 .padding {
@@ -71,45 +73,6 @@ html, body {
 
 .borderImg {
   border: 20px solid #40a629;
-}
-
-.welcome {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 2rem;
-}
-
-.welcome hr {
-  border-top: 2px solid #b4b4b4;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
-}
-
-.fa-code {
-  color: #e54d26;
-}
-
-.fa-bold {
-  color: #563d7c
-}
-
-.fa-css3 {
-  color: #2163af;
-}
-
-.fa-code, .fa-bold, .fa-css3 {
-  font-size: 4em;
-  margin: 1rem;
-}
-
-.fun {
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-.gif {
-  max-width: 100%;
 }
 
 .social a {
