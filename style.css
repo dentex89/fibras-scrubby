@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+/*============= RESETS =============*/
+
+/*-- iPhone X Remove Gutters --*/
+html {
+  padding: env(safe-area-inset);
+}
+/*-- Prevent Horizontal Scrolling & Font Style --*/
 html, body {
+  overflow-x: hidden;
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
@@ -88,7 +96,7 @@ html, body {
 }
 
 .footer img {
-  height: 2rem;
+  height: 2.5rem;
   margin: 1.5rem 0;
 }
 
@@ -112,7 +120,7 @@ ul.social li a:hover {
 
 .footer h3 {
   text-transform: uppercase;
-  margin: 1.5rem 0;
+  margin: 1.2rem 0;
 }
  /* contact form */
 
