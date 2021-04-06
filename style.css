@@ -15,7 +15,9 @@ html, body {
   color: #241000;
   line-height: 1.5;
 }
-
+.navbar-brand img {
+  height: 3rem;
+}
 .navbar {
   padding: 0.8rem;
 }
